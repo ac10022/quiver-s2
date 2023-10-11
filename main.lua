@@ -161,7 +161,7 @@ set_callback(function(draw_ctx)
 
 	end
 	
-	-- Drawing is so fun and not time consuming at all :3
+	-- Drawing is so fun and not time consuming at all
 	local aw, ah, ax, ay, bw, bh = 0.045, 0.1, -0.95, -0.85, 0.03, 0.018
 
 	if (state.screen == 12 or state.screen == 26) and game_manager.pause_ui.visibility == 0 and quiver_full() then
